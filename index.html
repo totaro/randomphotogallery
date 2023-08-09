@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Random PhotoGallery</title>
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
 
@@ -13,25 +17,37 @@
         <div class="navbar">
             <div class="name">totaro://html:css:javascript</div>
             <ul>
-            <li><a href="https://totaro.github.io/digitalclock/">Digital Clock</a></li>
-            <li><a href="https://totaro.github.io/randomphotogallery/">Random PhotoGallery</a></li>
-            <li><a href="https://totaro.github.io/dictionary/">Dictionary</a></li>
+                <li><a href="https://totaro.github.io/digitalclock/">Digital Clock</a></li>
+                <li><a href="https://totaro.github.io/randomphotogallery/">Random PhotoGallery</a></li>
+                <li><a href="https://totaro.github.io/dictionary/">Dictionary</a></li>
             </ul>
     
     
         </div>
 
-    <div class="image-container">
-        <img src="https://picsum.photos/300?random=1">
-<img src="https://picsum.photos/300?random=2">
-<img src="https://picsum.photos/300?random=3">
+    <h2>Digital Clock</h2>
+    <div class="clock">
+        <div>
+            <span id="hour">00</span>
+            <span class="text">Hours</span>
+        </div>
+        <div>
+            <span id="minutes">00</span>
+            <span class="text">Minutes</span>
+        </div>
+        <div>
+            <span id="seconds">00</span>
+            <span class="text">Seconds</span>
+        </div>
+        <div>
+            <span id="ampm">AM</span>
+        </div>
+
+
+
     </div>
-    <button class="btn">Load More</button>
 
-</div>
-
+    </div>   
     <script src="index.js"></script>
 </body>
-
-
 </html>
